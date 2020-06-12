@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+  <title>FadaTech</title>
+
+  <!--fonta wesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <!--Bootstrap pour css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Bootstrap pour js-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--navbar-->
+  <div class="container-fluid bg-dark fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">FadaTech</a>
+        <button class="navbar-toggler" style="border: solid 1px white;" type="button" data-toggle="collapse"
+          data-target="#barre" aria-controls="barre" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="barre">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#ac">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ex">Explorer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cr">Créer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#par">Partager</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--partage inscrire-->
+  <section>
+    <div class=" container-fluid" style="background-image: url(image5.jpg); padding-top: 20px; padding-bottom: 20px; background-size: cover; background-attachment: fixed;">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-5 d-none d-md-block">
+            <div class="mt-4 text-white" id="ac">
+              <h2>Partage tes connaissances avec tes amis</h2>
+            </div>
+            <div class="checkbox-item d-flex mt-2"><i
+                class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center text-white"></i>
+              <p class="mt-2 text-white">Bootstrap permet de créer des interfaces web mobiles responsives et est
+                actuellement le framework fontend le plus populaire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-2"><i
+                class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center text-white"></i>
+              <p class="mt-2 text-white">Bootstrap permet de créer des interfaces web mobiles responsives et est
+                actuellement le framework fontend le plus populaire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-2"><i
+                class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center text-white"></i>
+              <p class="mt-2 text-white">Bootstrap permet de créer des interfaces web mobiles responsives et est
+                actuellement le framework fontend le plus populaire</p>
+            </div>
+          </div>
+
+          <div class="col-md-5 my-3 d-flex justify-content-center">
+            <div class="card bg-success text-center" style="max-width: 25rem;">
+              <div class="text-center text-white mt-4">
+                <h3>S'inscrire</h3>
+                <p>Remplissez ce formulaire</p>
+              </div>
+              <form>
+                <div class="form-group mt-3 mr-3 ml-3"><input type="nom" class="form-control" id="nom"
+                    placeholder="Nom"></div>
+                <div class="form-group mt-3 mr-3 ml-3"><input type="email" class="form-control" id="email"
+                    placeholder="Email"></div>
+                <div class="form-group mt-3 mr-3 ml-3"><input type="password" class="form-control" id="password"
+                    placeholder="Password"></div>
+                <div class="form-group mt-3 mr-3 ml-3"><input type="confirm password" class="form-control"
+                    id="confirm password" placeholder="Confirm password"></div>
+                <div class="form-group mt-3 mr-3 ml-3"><input type="confirm password"
+                    class="form-control text-center bg-warning" id="confirm password" placeholder="Submit">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--explorer-->
+  <section>
+    <div class="container-fluid bg-dark">
+     <div class="container">
+        <div class="row">
+          <div class="col-12  text-center mb-4 text-white pb-4" id="ex">
+            <h2 class="mt-4">Explorer</h2>
+            <p class="text-">Apprendre Bootstrap c'est maitriser les class qui vous permettent de créer les interfaces.
+              Que ce soit pour centrer un texte, <br />créer un div, un
+              formulaire, tout ce que vous avez à faire c'est d'inclure ces class dans votre fichier HTML.</p>
+            <button type="submit" class="btn btn-outline text-white" style="border: solid 1px white;">Voir plus</button>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+  <!--explorer le projet innovant-->
+  <section>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mt-3 text-center">
+            <img src="image4.jpg" alt="image" class="image" style="height: 300px; width: 300px;">
+          </div>
+          <div class="col-lg-8 d-block mt-3 ">
+            <div class="ml-2">
+              <h5>Explorer les projet innovants</h5>
+              <p>la technologie est l'etude des outils et des techniques c'est à dire tout se qui est peut être dit aux
+                diverse périodes historiques sur l'etat de l'art en matière d'outils et de savoir faire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4">
+              <i class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4">
+              <i class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--creer-->
+  <section>
+    <div class="container-fluid bg-success">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-white pb-4" id="cr">
+            <h2 class="mt-4">Créer</h2>
+            <p class="">Apprendre Bootstrap c'est maitriser les class qui vous permettent de créer les interfaces. Que
+              ce soit pour centrer un texte, créer un div, un formulaire, <br />tout ce que vous avez à faire c'est
+              d'inclure ces class dans votre fichier HTML.</p>
+            <button type="submit" class="btn btn-outline text-white" style="border: solid 1px white;">Voir plus</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--creer des solutions-->
+  <section>
+    <div class="continaire-fluid bg-dark">
+      <div class="container text-white ">
+        <div class="row">
+          <div class="col-lg">
+            <div class=" mt-4 ">
+              <h5>Créé des solution</h5>
+              <p>la technologie est l'etude des outils et des techniques c'est à dire tout se qui est peut être dit aux
+                diverse périodes historiques sur l'etat de l'art en matière d'outils et de savoir faire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4"><i
+                class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4"><i
+                class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mb-3 text-center"><img src="image.jpg" alt="image" class=" "
+              style="height: 300px; width: 300px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--partage-->
+  <section>
+    <div class="comtinainer-fluid bg-success">
+      <div class="container">
+        <div class="row">
+          <div class="col  text-center  text-white pb-4" id="par">
+            <h2 class="mt-4">Partager</h2>
+            <p class="">Apprendre Bootstrap c'est maitriser les class qui vous permettent de créer les interfaces. Que ce
+              soit pour centrer un texte, créer un div, un formulaire, <br />tout ce que vous avez à faire c'est d'inclure
+              ces class dans votre fichier HTML.</p>
+            <button type="submit" class="btn btn-outline text-white" style="border: solid 1px white;">Voir plus</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--partage tes-->
+  <section>
+    <div class="continainer-fluid">
+      <div class="continainer ">
+        <div class="row">
+          <div class="col-lg-4 mt-3 text-center"><img src="image3.jpg" alt="image" class="image"
+              style="height: 300px; width: 300px;"></div>
+          <div class="col d-block ml-4">
+            <div class="mt-4 ">
+              <h5>Partage tes créations</h5>
+              <p>la technologie est l'etude des outils et des techniques c'est à dire tout se qui est peut être dit aux
+                diverse périodes historiques sur l'etat de l'art en matière d'outils et de savoir faire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4">
+              <i class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire.</p>
+            </div>
+            <div class="checkbox-item d-flex mt-4">
+              <i class="fas fa-check-square fa-2x p-3 mr-2 mb-2 align-selt-center"></i>
+              <p class="mt-2">Bootstrap permet de créer des interfaces web mobiles responsives et est actuellement le
+                framework fontend le plus populaire</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <div class="continainer-fluid bg-dark mt-5">
+    <div class="container text-center text-white  pb-4">
+      <div class="row">
+        <div class="col">
+          <h6 class="mt-2 mr-5">FadaTech</h6>
+          <p>Copyright © 2020</p>
+          <button type="button" class="btn btn-success" data-toggle="modal"
+            data-target="#staticBackdrop">Contactez-Nous</button>
+          <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="staticBackdropLabel">Contactez-Nous</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form class="text-left">
+                    <label for="name" class="text-dark">Name</label>
+                    <input type="name" class="form-control" id="name">
+                    <label for="email" class="text-dark">Email</label>
+                    <input type="email" class="form-control" id="email">
+                    <label for="exampleFormControlTextarea1" class="text-dark">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                    </textarea>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <input type="submit" class=" form-control  bg-success text-white mt-2">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
